@@ -23,6 +23,7 @@ dev = [
 ]
 
 [project.scripts]
+rag-ingest = "rag_implementation.ingest:main"
 rag-implementation = "rag_implementation.main:main"
 
 [tool.hatch.build]
